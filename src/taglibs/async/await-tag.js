@@ -14,6 +14,7 @@ function requestData(provider, args, thisObj, timeout) {
     var asyncValue = new AsyncValue();
 
     if (typeof provider === "function") {
+        // TODO: deprecate here
         var callback = function(err, data) {
             if (err) {
                 asyncValue.___reject(err);

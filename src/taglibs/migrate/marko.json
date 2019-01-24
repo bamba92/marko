@@ -182,6 +182,9 @@
         "migrator": "./unless-tag",
         "deprecated": true
     },
+    "<await>": {
+        "migrator": "./await-tag"
+    },
     "<script>": {
         "@marko-init": "boolean",
         "@template-helpers": "boolean"
